@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(249, 246, 246);
+    margin: 0;
+    
+}
+
+.tiles {
+    margin: 30px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 110px);
+    gap: 5px;
+    box-sizing: border-box;
+
+}
+
+.tile {
+
+    background-image: url('../img/gameCard.png');
+    border: 1px solid #4444;
+    background-size: cover;
+    height: 140px;
+    max-width: 400px;
+    border-radius: 5px;
+
+
+  
+
+}
+
+
+
+#myTimer {
+    font-weight: bold;
+    color: blue;
+}
+.playAgain{
+    text-align: center;
+    color: red;
+    
+}
+.writeWin{
+    color: yellow;
+    font-size: 50px;
+}
+.buttonWin{
+    color: black;
+    border-radius: 10%;
+    background-color: floralwhite;
+    height: 70px;
+    width: 160px;
+}
+.bWin{
+    font-size: 20px;
+
+}
+.writeUnWin{
+    color: blue;
+    font-size: 50px;
+}
+  #howToPlay{
+    color: rgb(250, 10, 6);
+    font-size: 50px;
+    text-align: center;
+  }
+  .level{
+    color: rgb(255, 5, 5);
+    font-size: 40px;
+    text-align: center;
+
+  }
+  .buttonTimer{
+    gap: 10px;
+    text-align: center;
+    border: solid red;
+    margin-left: 45%;
+  }
+  .buttonLevel{
+    height: 170px;
+    width: 180px;
+    border: dotted rgb(227, 19, 19);
+    border-radius: 4px;
+   margin: 5px;
+  }
+  .gameName{
+    text-align: center;
+    margin-left: 2px;
+    color: red;
+    font-size: 55px;
+  }
+  .homePage{
+    align-items: center;
+    text-align: center;
+    color: red;
+  }
+  .howToPlayPage{
+    align-items: center;
+  }
